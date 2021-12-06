@@ -1,0 +1,171 @@
+html{
+    word-break: keep-all;
+}
+.navbar{
+    position: fixed;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    justify-content: space-around;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+}
+.left-nav-elem{
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    color: black;
+}
+.navElem{
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    color: black
+}
+.homeTextPadding{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.main{
+    padding-top: 200px;
+    text-align: center;
+    margin: auto;
+}
+.gyun{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin: 30px auto;
+}
+
+
+ul{
+    list-style-position: inside;
+}
+li{
+    line-height: 1.7;
+    padding-left: 20px;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+h3{
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: bold;
+}
+p{
+    padding-top: 30px;
+    line-height: 1.7;
+}
+
+.pageSection{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.pageSection.psychopath,
+.pageSection.interstellar,
+.pageSection.portrait{
+    color: white;
+}
+
+
+.illImg{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+}
+.textBox{
+    display: block;
+    position: absolute;
+    margin: auto 70px;
+}
+.portraitImg{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.posterImg{
+    width: 400px;
+    margin-left: 800px;
+}
+
+.gradient{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(18,18,18,1) 40%, rgba(18,18,18,0) 100%);
+}
+.pink_gradient{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(255,235,235,1) 40%, rgba(255,235,235,0) 100%);
+}
+.white_gradient{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 20%, rgba(255,255,255,0) 100%);
+}
+.button{
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0px 0px 15px 0px rgba(18,18,18,0.3);
+}
+.homeTextContainer{
+    width: 500px;
+    margin: auto;
+}
+.homeText{
+    padding-top: 120px;
+}
+
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+
+
+/* MotionGraphic */
+.mg2{
+    background-color: #FFEBEB;
+}
+/* Poster */
+.poster1{
+    background-color: #121212;
+    color: white;
+}
+.poster2{
+    background-color: #E9E3E2;
+}
+.poster3{
+    background-color: white;
+}
+/* Illustration */
+.ill2{
+    background-color: #f4f4f4;
+}
